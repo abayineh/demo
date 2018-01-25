@@ -13,7 +13,7 @@ public class MainController {
         String UserName="";
                 Scanner keyboard=new Scanner(System.in);
                 UserName = keyboard.nextLine();
-                String greet ="Hello "+ UserName;
+                String greet ="Hey "+ UserName;
 
                 System.out.println(greet);
         return greet;
